@@ -1,0 +1,43 @@
+body h1 {
+  font-family: 'Poppins' !important;
+}
+
+body h2 {
+  font-family: 'Poppins';
+  font-size: 30px !important;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+body p {
+  font-size: 18px !important;
+  font-weight: 350 !important;
+}
+
+body a {
+  text-decoration: none !important;
+  color: black !important;
+  font-size: larger;
+}
+
+.nosotros {
+  margin-top: 35px;
+}
+
+.spacing {
+  margin-top: 50px;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.btn-warning:hover {
+  background-color: #ffd332 !important;
+  border-color: #ffd332;
+}
