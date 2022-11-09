@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "huellitas.css",
+	"sources": [
+		"../scss/huellitas.scss"
+	],
+	"sourcesContent": [
+		"body {\r\n    h1 {\r\n        font-family: 'Poppins' !important;\r\n        font-size: 4.5rem !important; \r\n        font-weight: 300px !important\r\n    }\r\n\r\n    h2 {\r\n        font-family: 'Poppins'!important;\r\n        font-size: 2.5rem;\r\n        margin-top: 15px;\r\n        margin-bottom: 10px;\r\n    }\r\n\r\n    p {\r\n        font-size: 1.8rem !important;\r\n        font-weight: 350 !important;\r\n    }\r\n\r\n    a {\r\n        text-decoration: none !important;\r\n        color: black !important;\r\n    }\r\n    \r\n}\r\n\r\nhtml {\r\n    font-size: 62.5%\r\n}\r\n\r\n//Clases//\r\n\r\n.nosotros {\r\n    margin-top: 35px;\r\n}\r\n\r\n\r\n.spacing {\r\n    margin-top: 50px;\r\n}\r\n\r\n.card {\r\n    border: none;\r\n}\r\n\r\n.card-body {\r\n    padding: 0px;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n.btn-warning:hover {\r\n    background-color: rgb(255, 211, 50) !important;\r\n    border-color: rgb(255, 211, 50);\r\n\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AACI,IADA,CACA,EAAE,CAAC;EACC,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,iBAAiB;EAC5B,WAAW,EAAE,gBACjB;CAAC;;;AALL,AAOI,IAPA,CAOA,EAAE,CAAC;EACC,WAAW,EAAE,SAAS,CAAA,UAAU;EAChC,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;CACtB;;;AAZL,AAcI,IAdA,CAcA,CAAC,CAAC;EACE,SAAS,EAAE,iBAAiB;EAC5B,WAAW,EAAE,cAAc;CAC9B;;;AAjBL,AAmBI,IAnBA,CAmBA,CAAC,CAAC;EACE,eAAe,EAAE,eAAe;EAChC,KAAK,EAAE,gBAAgB;CAC1B;;;AAIL,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,KACf;CAAC;;;AAID,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,IAAI;CACnB;;;AAGD,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,IAAI;CACnB;;;AAED,AAAA,KAAK,CAAC;EACF,MAAM,EAAE,IAAI;CACf;;;AAED,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,IAAI;CACtB;;;AAED,AAAA,YAAY,AAAA,MAAM,CAAC;EACf,gBAAgB,EAAE,OAAiB,CAAC,UAAU;EAC9C,YAAY,EAAE,OAAiB;CAElC"
+}

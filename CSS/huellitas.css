@@ -1,30 +1,101 @@
+html {
+  font-size: 62.5%;
+}
+
 main h1 {
   font-family: "Poppins", sans-serif !important;
   font-weight: 300px !important;
-  font-size: 50px;
+  font-size: 5rem;
 }
 
 main h2 {
   font-family: "Poppins", sans-serif !important;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 main p {
   font-family: "Poppins", sans-serif !important;
-  font-size: 16px !important;
-  font-weight: 300 !important;
+  font-weight: 200 !important;
+  font-size: 1.2rem;
 }
 
 main a {
   font-family: "Poppins", sans-serif !important;
   text-decoration: none !important;
   color: black !important;
-  font-size: 16px;
+  font-size: 1.5rem !important;
+}
+
+header nav a {
+  font-family: "Poppins", sans-serif !important;
+  text-decoration: none !important;
+  color: black !important;
+  font-size: 1.6rem !important;
+  font-weight: 200;
+}
+
+header nav a:hover {
+  color: #0B8BD6 !important;
 }
 
 body {
   background-color: rgba(185, 185, 185, 0.147);
+}
+
+footer {
+  font-size: 1.2rem !important;
+  background-color: white;
+}
+
+footer ul a {
+  font-size: 1.6rem !important;
+}
+
+footer ul a:hover {
+  color: #0B8BD6 !important;
+}
+
+i {
+  font-size: 26px;
+}
+
+.form-label {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif !important;
+  color: black !important;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.spacing-index {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.4rem !important;
+  }
+  .form-label {
+    font-size: 1.4rem !important;
+  }
+  .spacing-index {
+    margin-top: 90px !important;
+    margin-bottom: 90px !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  p {
+    font-size: 1.6rem !important;
+  }
+  .form-label {
+    font-size: 1.6rem !important;
+  }
+  .spacing-index {
+    margin-top: 100px !important;
+    margin-bottom: 140px !important;
+  }
 }
 
 .nosotros {
@@ -37,16 +108,28 @@ body {
 
 .card {
   border: none;
+  padding: 20px;
 }
 
 .card-body {
   padding: 0px;
-  margin-bottom: 30px;
 }
 
-.btn-warning:hover {
+.btn-warning {
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+}
+
+.btn-warning:hover, .btn-warning-submit:hover {
   background-color: #ffd332 !important;
   border-color: #ffd332;
+}
+
+.btn-warning-submit {
+  --bs-btn-bg: #ffc107;
+  font-size: 1.4rem;
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  transition: 0.3s;
+  font-weight: 500;
 }
 
 .imagenportada {
@@ -68,10 +151,113 @@ body {
 }
 
 .containerservicios {
-  background-color: rgba(213, 213, 213, 0.333);
+  background-color: #F9F9F9;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
 .h2servicios {
-  color: #2DACF6;
+  color: #0B8BD6;
   font-weight: 600 !important;
+}
+
+.cardborder {
+  color: black;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.cardbox {
+  color: black;
+  background-color: white;
+  padding: 20px 20px 5px 20px;
+  border-radius: 10px;
+}
+
+.card-text {
+  color: #313131;
+}
+
+.imgubicacion {
+  display: flex;
+}
+
+.cardcontacto {
+  border: none;
+  padding: 20px;
+  background-color: white;
+  border-radius: 11px;
+}
+
+.form-control {
+  font-family: "Poppins", sans-serif !important;
+  color: black !important;
+  font-size: 1.3rem;
+  height: 35px;
+}
+
+.accordion-button {
+  font-family: "Poppins", sans-serif !important;
+  color: black !important;
+  font-size: 2.1rem !important;
+  padding: 1.5rem;
+}
+
+.bi-facebook {
+  color: #4267b2;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.bi-facebook:hover {
+  font-size: 30px;
+}
+
+.bi-whatsapp {
+  color: white;
+  margin-right: 15px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.bi-instagram {
+  color: #c13584;
+  transition: 0.3s;
+}
+
+.bi-instagram:hover {
+  font-size: 30px;
+}
+
+.wpp-button {
+  background-color: #25b95b;
+  border: none;
+  border-radius: 11px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  align-content: center;
+  transition: 0.4s;
+}
+
+.wpp-button:hover {
+  background-color: #3ed977;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 35%;
+  position: relative;
+  height: 0;
+  margin-bottom: 40px;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
