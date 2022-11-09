@@ -3,19 +3,19 @@
 
 <head>
     <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"
-    content="Veterinaria en Posadas Misiones. Atención 24hs. Consulta clínica, desparasitaciones, vacunas y controles anuales.">
-  <meta name="keywords" content="Veterinaria, Atención veterinaria, Veterinaria en Posadas, Veterinarias en Misiones">
-  <title>Sucursales Huellitas</title>
-  <link rel="icon" type="image/x-icon" href="/Images/favicon.ico.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="CSS/huellitas.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Veterinaria en Posadas Misiones. Atención 24hs. Consulta clínica, desparasitaciones, vacunas y controles anuales.">
+    <meta name="keywords" content="Veterinaria, Atención veterinaria, Veterinaria en Posadas, Veterinarias en Misiones">
+    <title>Sucursales Huellitas</title>
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/huellitas.css">
 
 </head>
 
@@ -24,7 +24,7 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container">
-                    <a class="navbar-brand"><img src="\Images\Logo.png" alt="Logo de Huellitas" width="120px"></a>
+                    <a class="navbar-brand"><img src="./Images/Logo.png" alt="Logo de Huellitas" width="120px"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@
                             </li>
                             </li>
                             <li class="nav-item px-1">
-                                <a class="nav-link" href="contacto.html">Contactos</a>
+                                <a class="nav-link" href="contacto.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -55,49 +55,78 @@
 
         <main class="container">
             <div>
-                <h1 class="nosotros">Sucursales</h1>
+                <h1 class="nosotros display-4">Sucursales</h1>
                 <hr class="featurette-divider mt-2">
             </div>
-            <section>
-                <div class="row">
-                    <div class="col-5">
-                        <div class="mt-1"><h2>San Luis 2559</h2>
-                        <p>Atención 24hs todos los días</p></div>
-                        <div class="mt-5"><h2>Av. Uruguay 3369</h2>
-                        <p>Lunes a viernes: 8:00 a 16:00</p>
-                        <p>Sábado: 8:00 a 12:00</p></div>
+
+            <section class="row">
+                <div class="col-12 col-md-5 mt-3 mb-4">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button display-6" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    San Luis 2559
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <p class="ps-4 card-text"> Atención 24hs todos los días</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header display-6" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Av. Uruguay 3369
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <p class="ps-4 card-text">Lunes a viernes: 8:00 a 16:00</p>
+                                    <p class="ps-4 card-text">Sábado: 8:00 a 12:00</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-7 ">
-                        <iframe
+                </div>
+
+                <div class="col-md map-container ">
+                    <p><iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.0698371432127!2d-55.90187958501966!3d-27.37353428293135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457be483483dcb1%3A0x23008c444ee1a58e!2sSan%20Luis%202559%2C%20Posadas%2C%20Misiones!5e0!3m2!1ses!2sar!4v1662523834865!5m2!1ses!2sar"
-                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+                           style="border:0;" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe></p>
                 </div>
 
             </section>
-        </main>
+
+    </div>
+
+    </main>
 
 
 
-        <footer class="">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                <div class="col-md-4 d-flex align-items-center">
-                    <a href="/" class="mb-3 me-2 mb-md-0 ms-2 text-muted text-decoration-none lh-1">
-                        <img class="bi" width="24" height="24" src="\Images\favicon.ico.png">
-                    </a>
-                    <span class="mb-3 mb-md-0 text-muted">© 2022 Todos los derechos reservados</span>
-                </div>
+    <footer class=" footer d-flex flex-wrap justify-content-between align-items-center py-3 mt-5">
 
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-4">
-                    <li class="ms-3">
-                      <a class="text-muted" href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                    <li class="ms-3">
-                      <a class="text-muted" href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
-                    <li class="ms-3">
-                      <a class="text-muted" href="https://www.instagram.com" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
-                  </ul>
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="servicios.html" class="nav-link px-2 text-muted">Servicios</a></li>
+                    <li class="nav-item"><a href="sucursales.html" class="nav-link px-2 text-muted">Sucursales</a></li>
+                    <li class="nav-item"><a href="nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+                </ul>
+                <p class="text-center text-muted mt-4">© 2022 Todos los derechos reservados</p>
+                <p class="text-center text-muted">Huellitas Veterinaria</p>
             </footer>
+        </div>
+    </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
