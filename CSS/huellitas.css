@@ -59,45 +59,6 @@ i {
   font-size: 26px;
 }
 
-.form-label {
-  font-weight: 600;
-  font-family: "Poppins", sans-serif !important;
-  color: black !important;
-  font-size: 1.2rem;
-  margin-bottom: 8px;
-}
-
-.spacing-index {
-  margin-top: 60px !important;
-  margin-bottom: 60px !important;
-}
-
-@media (min-width: 768px) {
-  p {
-    font-size: 1.4rem !important;
-  }
-  .form-label {
-    font-size: 1.4rem !important;
-  }
-  .spacing-index {
-    margin-top: 90px !important;
-    margin-bottom: 90px !important;
-  }
-}
-
-@media (min-width: 1025px) {
-  p {
-    font-size: 1.6rem !important;
-  }
-  .form-label {
-    font-size: 1.6rem !important;
-  }
-  .spacing-index {
-    margin-top: 100px !important;
-    margin-bottom: 140px !important;
-  }
-}
-
 .imagenportada {
   height: 100%;
   background-size: cover !important;
@@ -256,4 +217,43 @@ i {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.form-label {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif !important;
+  color: black !important;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.spacing-index {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.4rem !important;
+  }
+  .form-label {
+    font-size: 1.4rem !important;
+  }
+  .spacing-index {
+    margin-top: 90px !important;
+    margin-bottom: 90px !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  p {
+    font-size: 1.6rem !important;
+  }
+  .form-label {
+    font-size: 1.6rem !important;
+  }
+  .spacing-index {
+    margin-top: 100px !important;
+    margin-bottom: 140px !important;
+  }
 }
